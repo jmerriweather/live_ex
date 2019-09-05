@@ -27,8 +27,7 @@ defmodule LiveEx.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:poison, "~> 3.1"},
-      {:phoenix_live_view, github: "phoenixframework/phoenix_live_view"}
+      {:phoenix_live_view, "~> 0.1.0"}
     ]
   end
 end
